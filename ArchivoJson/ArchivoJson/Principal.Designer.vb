@@ -33,7 +33,7 @@ Partial Class Principal
         '
         Me.SELECCIONAR.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.SELECCIONAR.Location = New System.Drawing.Point(49, 80)
-        Me.SELECCIONAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SELECCIONAR.Margin = New System.Windows.Forms.Padding(4)
         Me.SELECCIONAR.Name = "SELECCIONAR"
         Me.SELECCIONAR.Size = New System.Drawing.Size(130, 52)
         Me.SELECCIONAR.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class Principal
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(222, 94)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(352, 24)
         Me.TextBox1.TabIndex = 1
@@ -52,7 +52,7 @@ Partial Class Principal
         '
         Me.CARGAR.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.CARGAR.Location = New System.Drawing.Point(49, 157)
-        Me.CARGAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CARGAR.Margin = New System.Windows.Forms.Padding(4)
         Me.CARGAR.Name = "CARGAR"
         Me.CARGAR.Size = New System.Drawing.Size(130, 52)
         Me.CARGAR.TabIndex = 2
@@ -63,7 +63,7 @@ Partial Class Principal
         '
         Me.VER.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.VER.Location = New System.Drawing.Point(49, 242)
-        Me.VER.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.VER.Margin = New System.Windows.Forms.Padding(4)
         Me.VER.Name = "VER"
         Me.VER.Size = New System.Drawing.Size(130, 52)
         Me.VER.TabIndex = 3
@@ -85,7 +85,7 @@ Partial Class Principal
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.MenuText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Principal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Archivo Json"

@@ -22,7 +22,9 @@ Public Class Principal
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CARGAR.Click
-
+    Private Sub VER_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles VER.Click
+        Dim f2 As New VerDatos
+        f2.Show()
+        Me.Hide()
     End Sub
 End Class
