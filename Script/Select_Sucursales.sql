@@ -1,0 +1,18 @@
+USE PRUEBA
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE SucursalSelect
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT Nombre, Dirección, Telefono FROM Sucursales
+
+END
+
+

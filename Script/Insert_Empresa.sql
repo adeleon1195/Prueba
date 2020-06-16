@@ -1,0 +1,22 @@
+USE PRUEBA
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE EmpresaInsert (
+	@Nombre varchar (100),
+	@Pais varchar (100),
+	@MENSAJE VARCHAR(100) OUTPUT )
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+
+	INSERT INTO Empresa (Nombre, Pais)
+	VALUES (@Nombre, @Pais)
+	SET @MENSAJE='Registrado Ok'
+
+END
+
