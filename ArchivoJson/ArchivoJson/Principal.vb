@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 
-Public Class Form1
+Public Class Principal
 
     Private Sub SELECCIONAR_Click(sender As Object, e As EventArgs) Handles SELECCIONAR.Click
 
