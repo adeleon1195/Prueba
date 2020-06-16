@@ -30,38 +30,47 @@ Partial Class Form1
         '
         'SELECCIONAR
         '
-        Me.SELECCIONAR.Location = New System.Drawing.Point(51, 36)
+        Me.SELECCIONAR.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.SELECCIONAR.Location = New System.Drawing.Point(121, 50)
+        Me.SELECCIONAR.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.SELECCIONAR.Name = "SELECCIONAR"
-        Me.SELECCIONAR.Size = New System.Drawing.Size(146, 36)
+        Me.SELECCIONAR.Size = New System.Drawing.Size(145, 52)
         Me.SELECCIONAR.TabIndex = 0
         Me.SELECCIONAR.Text = "Seleccionar"
-        Me.SELECCIONAR.UseVisualStyleBackColor = True
+        Me.SELECCIONAR.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(263, 45)
+        Me.TextBox1.Location = New System.Drawing.Point(338, 64)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(280, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(391, 24)
         Me.TextBox1.TabIndex = 1
         '
         'CARGAR
         '
-        Me.CARGAR.Location = New System.Drawing.Point(51, 100)
+        Me.CARGAR.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.CARGAR.Location = New System.Drawing.Point(121, 127)
+        Me.CARGAR.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CARGAR.Name = "CARGAR"
-        Me.CARGAR.Size = New System.Drawing.Size(146, 36)
+        Me.CARGAR.Size = New System.Drawing.Size(145, 52)
         Me.CARGAR.TabIndex = 2
         Me.CARGAR.Text = "Cargar"
-        Me.CARGAR.UseVisualStyleBackColor = True
+        Me.CARGAR.UseVisualStyleBackColor = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(851, 536)
+        Me.BackColor = System.Drawing.SystemColors.Menu
+        Me.ClientSize = New System.Drawing.Size(839, 446)
         Me.Controls.Add(Me.CARGAR)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.SELECCIONAR)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.SystemColors.MenuText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "Form1"
         Me.Text = "Archivo Json"
         Me.ResumeLayout(False)
