@@ -1,0 +1,10 @@
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\bin\Debug\ArchivoJson.exe.config
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\bin\Debug\ArchivoJson.exe
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\bin\Debug\ArchivoJson.pdb
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\bin\Debug\ArchivoJson.xml
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.Form1.resources
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.Resources.resources
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.vbproj.GenerateResource.Cache
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.exe
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.xml
+C:\Users\Andrea\Desktop\PRUEBA\ArchivoJson\ArchivoJson\obj\Debug\ArchivoJson.pdb
