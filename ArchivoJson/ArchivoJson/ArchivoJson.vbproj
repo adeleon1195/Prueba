@@ -70,6 +70,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.vb" />
+    <Compile Include="Json.vb" />
     <Compile Include="Principal.vb">
       <SubType>Form</SubType>
     </Compile>

@@ -29,11 +29,13 @@ Partial Class VerDatos
         Me.EMPRESA = New System.Windows.Forms.Button()
         Me.LIMPIAR = New System.Windows.Forms.Button()
         Me.PRINCIPAL = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
         '
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(45, 103)
         Me.DataGridView1.Name = "DataGridView1"
@@ -95,11 +97,20 @@ Partial Class VerDatos
         Me.PRINCIPAL.Text = "Menu Principal"
         Me.PRINCIPAL.UseVisualStyleBackColor = False
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(163, 225)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 6
+        '
         'VerDatos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(605, 443)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.PRINCIPAL)
         Me.Controls.Add(Me.LIMPIAR)
         Me.Controls.Add(Me.EMPRESA)
@@ -120,4 +131,5 @@ Partial Class VerDatos
     Friend WithEvents EMPRESA As System.Windows.Forms.Button
     Friend WithEvents LIMPIAR As System.Windows.Forms.Button
     Friend WithEvents PRINCIPAL As System.Windows.Forms.Button
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
 End Class
