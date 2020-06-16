@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.SELECCIONAR = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CARGAR = New System.Windows.Forms.Button()
@@ -60,8 +61,9 @@ Partial Class Form1
         Me.Controls.Add(Me.CARGAR)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.SELECCIONAR)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Archivo Json"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
